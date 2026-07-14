@@ -1,4 +1,16 @@
 {
   "cleanUrls": true,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/2025/05/26/what-is-a-potentially-exempt-transfer-pet",
+      "destination": "/what-is-a-potentially-exempt-transfer",
+      "permanent": true
+    },
+    {
+      "source": "/:year(\\d{4})/:month(\\d{2})/:day(\\d{2})/:slug",
+      "destination": "/:slug",
+      "permanent": true
+    }
+  ]
 }
